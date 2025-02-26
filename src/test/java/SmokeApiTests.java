@@ -23,19 +23,6 @@ public class SmokeApiTests {
         //given - config
         //when - http
         //then - assert
-        /*String body = "{\n" +
-                "  \"id\": 0,\n" +
-                "  \"username\": \"string\",\n" +
-                "  \"firstName\": \"string\",\n" +
-                "  \"lastName\": \"string\",\n" +
-                "  \"email\": \"string\",\n" +
-                "  \"password\": \"string\",\n" +
-                "  \"phone\": \"string\",\n" +
-                "  \"userStatus\": 0,\n" +
-                "}";*/
-
-
-
 
         ValidatableResponse response = given()
                 .header("accept", "application/json")
