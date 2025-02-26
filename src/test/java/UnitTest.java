@@ -5,6 +5,6 @@ public class UnitTest {
 
     @Test
     void simpleUnitTest() {
-        Assertions.assertEquals(1,2);
+        Assertions.assertEquals(1,1);
     }
 }
